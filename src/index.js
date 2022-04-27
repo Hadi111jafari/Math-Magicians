@@ -1,14 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
+import Calculator from './components/calculator';
+import './App.css';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-);
-
-reportWebVitals();
+// Render the Calculator to the Web page.
+ReactDOM.render(<Calculator />, document.getElementById('root'));
