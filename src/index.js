@@ -5,4 +5,4 @@ import './App.css';
 import './index.css';
 
 // Render the Calculator to the Web page.
-ReactDOM.render(<Calculator />, document.getElementById('root'));
+ReactDOM.render(<Calculator pre="" operand="" curr="0" />, document.getElementById('root'));

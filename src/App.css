@@ -103,6 +103,37 @@
   grid-row: 6;
 }
 
+#zero:hover,
+#zero:focus,
+#one:hover,
+#one:focus,
+#two:hover,
+#two:focus,
+#three:hover,
+#three:focus,
+#four:hover,
+#four:focus,
+#five:hover,
+#five:focus,
+#six:hover,
+#six:focus,
+#seven:hover,
+#seven:focus,
+#eight:hover,
+#eight:focus,
+#nine:hover,
+#nine:focus,
+#all-clear:hover,
+#all-clear:focus,
+#positive-negative:hover,
+#positive-negative:focus,
+#percent:hover,
+#percent:focus,
+#decimal:hover,
+#decimal:focus {
+  background-color: rgb(155, 153, 153);
+}
+
 #divide,
 #multiply,
 #subtract,
@@ -135,6 +166,19 @@
 #equal {
   grid-column: 4;
   grid-row: 6;
+}
+
+#divide:hover,
+#divide:focus,
+#multiply:hover,
+#multiply:focus,
+#subtract:hover,
+#subtract:focus,
+#add:hover,
+#add:focus,
+#equal:hover,
+#equal:focus {
+  background-color: rgb(255, 255, 255);
 }
 
 #outputScreen {
