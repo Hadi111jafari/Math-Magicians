@@ -1,3 +1,8 @@
+.calc-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
 
 .container {
   display: grid;
@@ -11,7 +16,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 #zero,
@@ -191,4 +195,42 @@
   justify-content: flex-end;
   font-size: 30px;
   padding: 10px;
+}
+
+.App {
+  margin: 0;
+  padding: 2rem;
+  width: 100%;
+}
+
+.nav-container {
+  top: 0;
+  right: 0;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-link {
+  padding: 5px 1rem;
+  font-size: large;
+  margin: 0;
+}
+
+.calculator {
+  border: 2px solid black;
+  border-bottom: 0;
+  border-top: 0;
+}
+
+.paragraph {
+  margin-top: 2rem;
+}
+
+.qoute {
+  margin: 3rem;
 }
