@@ -4,10 +4,10 @@ import Calculator from './components/calculator';
 import './App.css';
 import './index.css';
 
-function Qoutes() {
+function Quotes() {
   return (
     <>
-      <main className="qoute">
+      <main className="quote">
         <h3>
           Mathematics is nt about numbers,
           equations, computaions, or algorithms:
@@ -68,12 +68,12 @@ function App() {
         <nav className="nav-container">
           <Link className="nav-link" to="/">Home</Link>
           <Link className="nav-link calculator" to="/components/calculator">Calculator</Link>
-          <Link className="nav-link" to="/Qoutes">Qoutes</Link>
+          <Link className="nav-link" to="/Quotes">Quotes</Link>
         </nav>
       </div>
       <div>
         <Routes>
-          <Route path="/Qoutes" element={<Qoutes />} />
+          <Route path="/Quotes" element={<Quotes />} />
           <Route path="/components/calculator" element={<Calculator pre="" operand="" curr="0" />} />
           <Route path="/" element={<Home />} />
         </Routes>
