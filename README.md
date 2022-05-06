@@ -10,7 +10,9 @@
 - GitFlow
 - Linters
 - Webpack
-
+## Live Links
+[Heroku](https://peaceful-retreat-28282.herokuapp.com/)
+[Netlify](https://chipper-blancmange-c0d7f3.netlify.app)
 
 Clone Repository using
 `git clone git@github.com:Hadi111jafari/math-magicians`
